@@ -1,86 +1,84 @@
-.login{
-		width: 700px;
-		margin: 20px auto;
-}
 .login .pic{
-		overflow: hidden;
+	overflow: hidden;
+ 	width: 60%;
+ 	margin: 30px auto;
 }
 .login .pic .left a{
-		display:inline-block;
-		height: 139px;
-		width: 286px;
-		background:url("img/css.fw.png") no-repeat -29px -231px;
-		float: left;
-		margin-left: 60px;
+	display: block;
+	float: left;
+	width: 286px;
+	height: 139px;
+	margin-left: 90px;
+	background:url("img/css.fw.png") no-repeat -29px -231px;
 }
 .login .pic .right a{
-		display:inline-block;
-		height: 139px;
-		width: 253px;
-		background:url("img/css.fw.png") no-repeat -328px -231px;
-		float: left;
-		margin-left: 30px
+	display: block;
+	float: left;
+	width: 253px;
+	height: 139px;
+	margin-left: 30px;
+	background:url("img/css.fw.png") no-repeat -328px -231px;
 }
-.login .input{
-	width: 100%;
-	border: 3px solid #D73A2E;
-	border-radius: 10px;
-}
-.login .input .username,.pwd,.lbtn,.cok,.rbtn{
-	margin: 10px 200px;
-}
-.login .input .username,.pwd,.cok{
-	font-size: 12px;
-
-}
-.login .input .username input{
-	width: 300px;
-	height: 32px;
-}
-.login .input .pwd input{
-	width: 300px;
-	height: 32px;
-}
-.login .input .lbtn button{
-	width: 300px;
-	height: 32px;
-	color: #fff;
-	background-color: #D6362A;
-	border:1px solid #D6362A;
-	border-radius: 10px;
-	cursor: pointer;
-	outline:0;
-}
-.login .input .rbtn button{
-	width: 300px;
-	height: 32px;
-	color: #D6362A;
-	background-color: #fff;
-	border:2px solid #D6362A;
-	border-radius: 10px;
-	cursor: pointer;
-	outline:0;
+.login .msg{
+	width: 50%;
+	margin: 20px auto;
 }
 .login .msg .suc{
-	width: 100%;
-	border: 3px solid #D73A2E;
-	border-radius: 10px;
 	text-align: center;
+	border: 2px solid #D4362A;
+	border-radius: 20px;
 	height: 200px;
 	display: none;
 }
 .login .msg .suc p{
-	font-size: 32px;
-	color: #D73A2E;
+	color: #D4362A;
+	font-size: 28px;
 	line-height: 100px;
 }
 .login .msg .suc .vbtn{
-	width: 300px;
+	border:1px solid #D4362A;
+	width: 180px;
+	background-color: #D4362A;
+	height: 30px;
 	border-radius: 10px;
-	cursor: pointer;
-	outline:0;
-	height: 32px;
+	outline: 0;
 	color: #fff;
-	background-color: #D6362A;
-	border:2px solid #D6362A;
+}
+.login .msg .input{
+	border: 2px solid #D4362A;
+	border-radius: 20px;
+}
+.login .msg .input .username,.pwd,.lbtn,.rbtn,.cok{
+	margin-left: 180px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.login .msg .input .username input{
+	width:250px;
+	height: 30px;
+}
+.login .msg .input .pwd input{
+	width:250px;
+	height: 30px;
+}
+.login .msg .input #lbtn {
+	border:1px solid #D4362A;
+	width: 250px;
+	background-color: #D4362A;
+	height: 30px;
+	border-radius: 10px;
+	outline: 0;
+	color: #fff;
+}
+.login .msg .input #register{
+	border:2px solid #D4362A;
+	background-color: #fff;
+	width: 250px;
+	height: 30px;
+	border-radius: 10px;
+	outline: 0;
+	margin-bottom: 10px;
+}
+.login .msg .input #register a{
+	color: #D4362A;
 }

@@ -1,0 +1,16 @@
+.carousel ul li img{
+	width: 1263px;
+}
+.carousel{
+	position: relative;
+	width: 1263px;
+	overflow: hidden;
+}
+.carousel ul{
+	// position: absolute;
+	top: 0;
+	left: 0;
+}
+.carousel li{
+	float: left;
+}

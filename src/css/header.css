@@ -1,3 +1,10 @@
+#head{
+	width: 100%;
+}
+#head .container{
+	margin: 0 auto;
+	width: 1200px;
+}
 #head .top{
 	font-size: 12px;
 	background-color: #F4F3F1;
@@ -5,6 +12,7 @@
 	height: 30px;
 	line-height: 30px;
 	overflow: hidden;
+	width: 100%;
 }
 #head .top .left{
 	float: left;
@@ -157,6 +165,24 @@
 #head .nav h3 .mune>li>div{
 	display: none;
 }
-#head .nav h3 .mune li.active{
+#head .nav h3 .mune>li:hover{
 	background-color: #fff;
+}
+#head .nav h3 .mune .go1:hover .lo1{
+	display: block;
+}
+#head .nav h3 .mune .go2:hover .lo2{
+	display: block;
+}
+#head .nav h3 .mune .go3:hover .lo3{
+	display: block;
+}
+#head .nav h3 .mune .go4:hover .lo4{
+	display: block;
+}
+#head .nav h3 .mune .go5:hover .lo5{
+	display: block;
+}
+#head .nav h3 .mune .go6:hover .lo6{
+	display: block;
 }

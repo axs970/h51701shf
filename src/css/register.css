@@ -1,0 +1,12 @@
+	.register{width: 45%; margin: 30px auto;border:3px solid #D4362A;padding: 70px;}
+	.register form>div{margin:20px 0;}
+	.register form>div span{font-size: 12px;}
+	.register form>div label{text-align: right;}
+	.register form>div input{height: 30px; width: 230px;}
+	.register form>div #password,#phone,#email{margin-left: 32px;}
+	.register form>div #username{margin-left:16px;}
+	.register form>div #submit{width: 88px;height:30px;border:1px solid #D4362A;background-color:#D4362A;color: #fff;margin-left: 140px; cursor: pointer;}
+	.ssu{width: 45%; margin: 30px auto;border:3px solid #D4362A;padding: 20px;border-radius: 20px;text-align: center;height: 200px;display: none;}
+	.ssu p{color:#D4362A;line-height: 80px;font-size: 24px; }
+	.ssu .ibtn{width:180px;height: 30px;border:1px solid #D4362A;background-color:#D4362A;border-radius: 10px;}
+	.ssu .ibtn a{f	ont-size: 12px;color: #fff;}
