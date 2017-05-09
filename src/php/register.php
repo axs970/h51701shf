@@ -9,11 +9,9 @@
 	$usernamecheck = "select * from username where `username` ='$username'";
 	$result = query($usernamecheck);
 	//当前 username 不存在，执行插入操作
-	echo "$username,$password";
 	if(count($result) < 1){
 
 		$sql = "insert into username(`username`, `password`,`phone`,`email`) values('$username', '$password','$phone','$email')";
-		// echo $sql;
 		$excute = excute($sql);
 		if($excute){
 			echo "{state: true}";

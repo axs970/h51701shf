@@ -1,0 +1,86 @@
+.login{
+		width: 700px;
+		margin: 20px auto;
+}
+.login .pic{
+		overflow: hidden;
+}
+.login .pic .left a{
+		display:inline-block;
+		height: 139px;
+		width: 286px;
+		background:url("img/css.fw.png") no-repeat -29px -231px;
+		float: left;
+		margin-left: 60px;
+}
+.login .pic .right a{
+		display:inline-block;
+		height: 139px;
+		width: 253px;
+		background:url("img/css.fw.png") no-repeat -328px -231px;
+		float: left;
+		margin-left: 30px
+}
+.login .input{
+	width: 100%;
+	border: 3px solid #D73A2E;
+	border-radius: 10px;
+}
+.login .input .username,.pwd,.lbtn,.cok,.rbtn{
+	margin: 10px 200px;
+}
+.login .input .username,.pwd,.cok{
+	font-size: 12px;
+
+}
+.login .input .username input{
+	width: 300px;
+	height: 32px;
+}
+.login .input .pwd input{
+	width: 300px;
+	height: 32px;
+}
+.login .input .lbtn button{
+	width: 300px;
+	height: 32px;
+	color: #fff;
+	background-color: #D6362A;
+	border:1px solid #D6362A;
+	border-radius: 10px;
+	cursor: pointer;
+	outline:0;
+}
+.login .input .rbtn button{
+	width: 300px;
+	height: 32px;
+	color: #D6362A;
+	background-color: #fff;
+	border:2px solid #D6362A;
+	border-radius: 10px;
+	cursor: pointer;
+	outline:0;
+}
+.login .msg .suc{
+	width: 100%;
+	border: 3px solid #D73A2E;
+	border-radius: 10px;
+	text-align: center;
+	height: 200px;
+	display: none;
+}
+.login .msg .suc p{
+	font-size: 32px;
+	color: #D73A2E;
+	line-height: 100px;
+}
+.login .msg .suc .vbtn{
+	width: 300px;
+	border-radius: 10px;
+	cursor: pointer;
+	outline:0;
+	height: 32px;
+	color: #fff;
+	background-color: #D6362A;
+	border:2px solid #D6362A;
+}

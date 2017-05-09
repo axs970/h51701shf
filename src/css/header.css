@@ -50,10 +50,11 @@
 	height: 36px;
 	color: #666;
 	width: 420px;
+	line-height: 110px;
 	border-radius: 18px 0 0 18px;
 	padding-left: 15px;
 }
-#head .logo .search_btn{
+#head .logo .searchbtn{
 	height: 36px;
 	font-size: 14px;
 	color: #fff;
