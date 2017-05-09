@@ -121,12 +121,13 @@
 	position: absolute;
 	border: 3px solid #D6362A;
 	width: 200px;
+	z-index: 99;
 	text-align: center;
 	background-color: #FEEFEC;
 	display: none;
 }
 #head .nav h3 .mune li{
-	line-height: 48px;
+	line-height: 48px;s
 	position: relative;
 }
 #head .nav h3 .mune li i{

@@ -4,13 +4,48 @@
 .carousel{
 	position: relative;
 	width: 1263px;
+	height: 490px;
 	overflow: hidden;
 }
 .carousel ul{
-	// position: absolute;
+	position:relative;
+	overflow: hidden;
 	top: 0;
 	left: 0;
 }
 .carousel li{
 	float: left;
 }
+.prev,.next{
+	position: absolute;
+	top:200px;
+	height:90px;
+	width:60px;
+	line-height:90px;
+	font-size: 36px;
+	text-align:center;
+	background-color:#D4362A;
+	color:#fff;opacity: 0;}
+.prev{left: 0;}
+.next{right: 0;}
+.prev:hover{cursor:pointer;}
+.next:hover{cursor:pointer;}
+.page{
+	position: absolute;
+	bottom: 10px;
+	right: 320px;}
+.page span{display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ccc;
+	font-size: 20px;
+	color: #f00;
+	margin: 0 5px;
+	line-height: 50px;
+	text-align: center;
+	opacity: 0.9;}
+.page .active{
+	background-color: #D4362A;
+	color: #fff;}
+.page span:hover{cursor:pointer;}
