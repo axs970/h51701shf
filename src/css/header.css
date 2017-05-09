@@ -118,6 +118,7 @@
 }
 #head .nav h3 .mune li{
 	line-height: 48px;
+	position: relative;
 }
 #head .nav h3 .mune li i{
 	display: inline-block;
@@ -125,4 +126,36 @@
 }
 #head .nav h3:hover .mune{
 	display: block;
+}
+#head .nav h3 .mune>li>div{
+	position: absolute;
+	left: 196px;
+	width: 660px;
+	border: solid 4px #d9392d;
+	z-index: 1;
+	background: #fff;
+	top: -3px;
+	font-size: 12px;
+	font-weight: normal;
+	height: 280px;
+	overflow: hidden;
+}
+#head .nav h3 .mune>li>div dl{
+	// display: block;
+	border-bottom: 1px dashed #ccc;
+}
+#head .nav h3 .mune>li>div dt{
+	text-align: right;
+	font-weight: bold;
+	display: inline-block;
+
+}
+#head .nav h3 .mune>li>div dd{
+ float: left;
+}
+#head .nav h3 .mune>li>div{
+	display: none;
+}
+#head .nav h3 .mune li.active{
+	background-color: #fff;
 }

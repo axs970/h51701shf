@@ -23,3 +23,6 @@ a{
  }
 *{
 	box-sizing:border-box;}
+a:hover{
+	text-decoration:underline;
+}
