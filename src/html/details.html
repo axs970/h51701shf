@@ -7,20 +7,70 @@
 	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/footer.css">
 	<link rel="stylesheet" href="../css/details.css">
+	<link rel="stylesheet" href="../font/iconfont.css">
 	<script src="../js/jquery-3.1.1.js"></script>
+	<script src="../lib/jquery-gdszoom/jquery.gdszoom.js"></script>
 	<script>
 		$(function(){
 			$('#header').load('header-s.html');
+			$('.zoom').gdszoom({
+				position:'right',});
 			$('#footer').load('footer-s.html');
 		});
 	</script>
 </head>
 <body>
+	<div class="cart">
+		<p>
+			<span>0</span>
+			<a href=""><i class="iconfont icon-shoppingcart"></i> 购<br>物<br>车</a>
+		</p>
+		<p><i class="iconfont icon-shouc01"></i></p>
+		<p><i class="iconfont icon-iconfontcolor68"></i></p>
+	</div>
 	<header id="header"></header>
 	<div id="details">
-		<p>
-		 <a href="">首页</a>&gt;休闲零食&gt;蜜饯&gt;芒果干&gt;百草味 芒果干100g/袋
-		</p>
+		<div class="title">
+			<p>
+		 		<a href="">首页</a>&gt;休闲零食&gt;蜜饯&gt;芒果干&gt;百草味 芒果干100g/袋
+			</p>
+		</div>
+		
+		<div class="goods">
+			<div class="left">
+				<div class="zoom">
+				<img src="../img/goods1.jpg" data-big="../img/goods-max1.jpg">
+				</div>
+				<div class="goods-min">
+					<img src="../img/goods-min1.jpg" alt="">
+				</div>	
+				<p>
+					分享到：
+					<i class="iconfont icon-qqkongjian"></i>
+					<i class="iconfont icon-xinlangweibo"></i>
+					<i class="iconfont icon-pengyouquan"></i>
+					
+					<i class="iconfont icon-4"></i>
+				</p>
+			</div>
+			<div class="incart">
+				<h4>百草味 芒果干100g/袋</h4>
+				<p>蜜饯果干果脯 休闲零食 小吃 酸酸甜甜 美味小食</p>
+				<div class="price">
+					 <p>市场价：￥18.0元</p>
+					 <p>本店价：<span>￥16.9元</span></p>
+				</div>
+				<div class="num">
+					数量：
+					<input type="text" id="num" value="1">
+					<button class="lbtn">&lt;</button><button class="rbtn">&gt;</button>
+				</div>
+				<div>
+					<button id="buy">加入购物车</button>
+				</div>
+			</div>
+		</div>
+		
 	</div>
 	<footer id="footer"></footer>
 </body>
