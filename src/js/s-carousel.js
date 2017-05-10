@@ -40,7 +40,7 @@
 				span.innerHTML = i;
 
 				if(i===1){
-					span.classList.add('active');console.log('666');
+					span.classList.add('active');
 				}
 
 				page.appendChild(span);
@@ -109,7 +109,6 @@
 					var  speed = (current - target)/10;
 					// 速度判断
 					speed = speed>0 ? Math.ceil(speed):Math.floor(speed);
-					console.log(speed,current,target);
 					// 条件判断，停止定时器
 					if(current == target){
 						clearInterval(scrollTimer);
@@ -120,4 +119,5 @@
 				},30)
 				
 			}
+			
 		})

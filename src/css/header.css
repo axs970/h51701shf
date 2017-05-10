@@ -17,7 +17,7 @@
 #head .top .left{
 	float: left;
 }
-#head .top .left span:last-child a{
+#head .top .left span  a{
 	color: #D6362A;
 
 }
