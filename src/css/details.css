@@ -17,7 +17,7 @@
 	color: #D6362A;
 	font-size: 14px;
 }
-.cart p span{
+.cart p #goodsNum{
 	line-height: 24px;
 	display: block;
 	margin-left: 6px;
@@ -27,6 +27,8 @@
 	border-radius: 50%;
 	background-color: #D6362A;
 	color: #fff;
+	text-align: center;
+	border: 1px solid #D6362A;
 }
 .cart p a i{
 	font-size: 20px;
@@ -117,6 +119,7 @@
 #details .goods .incart .num button{
 	height: 30px;
 	outline: 0;
+	cursor: pointer;
 }
 #details .goods .incart #buy{
 	margin-left: 80px;
@@ -128,6 +131,7 @@
 	margin-top: 30px;
 	border-radius: 14px;
 	outline: 0;
+	cursor: pointer;
 }
 .gds-zoom{position:relative;
 	width:300px;

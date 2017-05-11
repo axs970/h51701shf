@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/cart.css">
+	<link rel="stylesheet" href="../font/iconfont.css">
+	<script src="../js/jquery-3.1.1.js"></script>
+	<script src="../js/common.js"></script>
+	 <script>
+	 	$(function(){
+			$('#header').load('header-s.html');
+			$('#footer').load('footer-s.html');
+		});
+	 </script>
+	 <script src="../js/cart.js"></script>
+</head>
+<body>
+	<header id="header"></header>
+	<div id="cart">
+		<p>
+			<a href="../index.html">首页</a>
+			&gt;购物车
+		</p>
+		<div class="cartlist">
+			<div class="step">
+				<span><i>1</i>查看购物车</span>
+				<span><i>2</i>确认订单信息并支付</span>
+				<span><i>3</i>确认支付</span>
+				<span><i>4</i>评价</span>
+			</div>
+			<div>
+				<ul class="blurb">
+					<li>商品信息</li>
+					<li>单价</li>
+					<li>数量</li>
+					<li>操作</li>
+				</ul>
+				<div class="car-list"></div>
+			</div>
+			<div class="buy">
+				<p><button class="btnclear">清空购物车</button> 
+				<span>已选商品合计：</span>
+				<div class="subPrice"></div>
+				</p>
+				<div class="lin">
+					<button class="rebtn"><a href="../index.html">&lt; 继续购物</a></button>
+					<button class="sumbtn">结 算 &gt;</button>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<header id="footer"></header>
+</body>
+</html>
