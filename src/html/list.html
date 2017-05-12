@@ -6,15 +6,246 @@
 	<link rel="stylesheet" href="../css/base.css">
 	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/list.css">
 	<script src="../js/jquery-3.1.1.js"></script>
+	<script src="../lib/jquery.lazyload.js"></script>
 	 <script>
 	 	$(function(){
 			$('#header').load('header-s.html');
-			$('#header').load('footer-s.html');
+			$('#footer').load('footer-s.html',function(){
+				$("img").lazyload({effect: "fadeIn"});
+			});
 		});
 	 </script>
 </head>
 <body>
 	<header id="header"></header>
+	<main>
+		<h3>年货礼盒</h3>
+		<hr/>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g1.jpg"></a></p>
+				<p class="price">￥16.9</p>
+				<p><a href="">百草味 芒果干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g2.jpg"></a></p>
+				<p class="price">¥18.8</p>
+				<p><a href="">百草味 白芝麻猪肉脯 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g3.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 精制猪肉脯 200g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g4.jpg"></a></p>
+				<p class="price">¥33.6</p>
+				<p><a href="">百草味 熟制板栗仁 80g/袋 X 2</a></p>
+			</li> 
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g5.jpg"></a></p>
+				<p class="price">¥23.9</p>
+				<p><a href="">百草味 琥珀核桃仁 168g/袋</a></p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g6.jpg"></a></p>
+				<p class="price">¥12.8</p>
+				<p ><a href="">百草味 多味花生210g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g7.jpg"></a></p>
+				<p class="price">¥36.9</p>
+				<p><a href="">百草味 红杏干 100g/袋 X 4</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g8.jpg"></a></p>
+				<p class="price">¥16.9</p>
+				<p><a href="">百草味 黄桃干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g9.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 风琴手撕鱿鱼片80g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g10.jpg"></a></p>
+				<p class="price">¥57.8</p>
+				<p><a href="">百草味 手撕鱿鱼条80g/袋 X 2</a></p>
+			</li>
+		</ul>
+		<h3>坚果炒货</h3>
+		<hr/>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g1.jpg"></a></p>
+				<p class="price">￥16.9</p>
+				<p><a href="">百草味 芒果干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g2.jpg"></a></p>
+				<p class="price">¥18.8</p>
+				<p><a href="">百草味 白芝麻猪肉脯 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g3.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 精制猪肉脯 200g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g4.jpg"></a></p>
+				<p class="price">¥33.6</p>
+				<p><a href="">百草味 熟制板栗仁 80g/袋 X 2</a></p>
+			</li> 
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g5.jpg"></a></p>
+				<p class="price">¥23.9</p>
+				<p><a href="">百草味 琥珀核桃仁 168g/袋</a></p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g6.jpg"></a></p>
+				<p class="price">¥12.8</p>
+				<p ><a href="">百草味 多味花生210g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g7.jpg"></a></p>
+				<p class="price">¥36.9</p>
+				<p><a href="">百草味 红杏干 100g/袋 X 4</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g8.jpg"></a></p>
+				<p class="price">¥16.9</p>
+				<p><a href="">百草味 黄桃干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g9.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 风琴手撕鱿鱼片80g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g10.jpg"></a></p>
+				<p class="price">¥57.8</p>
+				<p><a href="">百草味 手撕鱿鱼条80g/袋 X 2</a></p>
+			</li>
+		</ul>
+		<h3>肉类海鲜</h3>
+		<hr/>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g1.jpg"></a></p>
+				<p class="price">￥16.9</p>
+				<p><a href="">百草味 芒果干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g2.jpg"></a></p>
+				<p class="price">¥18.8</p>
+				<p><a href="">百草味 白芝麻猪肉脯 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g3.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 精制猪肉脯 200g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g4.jpg"></a></p>
+				<p class="price">¥33.6</p>
+				<p><a href="">百草味 熟制板栗仁 80g/袋 X 2</a></p>
+			</li> 
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g5.jpg"></a></p>
+				<p class="price">¥23.9</p>
+				<p><a href="">百草味 琥珀核桃仁 168g/袋</a></p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g6.jpg"></a></p>
+				<p class="price">¥12.8</p>
+				<p ><a href="">百草味 多味花生210g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g7.jpg"></a></p>
+				<p class="price">¥36.9</p>
+				<p><a href="">百草味 红杏干 100g/袋 X 4</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g8.jpg"></a></p>
+				<p class="price">¥16.9</p>
+				<p><a href="">百草味 黄桃干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g9.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 风琴手撕鱿鱼片80g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g10.jpg"></a></p>
+				<p class="price">¥57.8</p>
+				<p><a href="">百草味 手撕鱿鱼条80g/袋 X 2</a></p>
+			</li>
+		</ul>
+		<h3>干果蜜饯</h3>
+		<hr/>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g1.jpg"></a></p>
+				<p class="price">￥16.9</p>
+				<p><a href="">百草味 芒果干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g2.jpg"></a></p>
+				<p class="price">¥18.8</p>
+				<p><a href="">百草味 白芝麻猪肉脯 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g3.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 精制猪肉脯 200g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g4.jpg"></a></p>
+				<p class="price">¥33.6</p>
+				<p><a href="">百草味 熟制板栗仁 80g/袋 X 2</a></p>
+			</li> 
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g5.jpg"></a></p>
+				<p class="price">¥23.9</p>
+				<p><a href="">百草味 琥珀核桃仁 168g/袋</a></p>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g6.jpg"></a></p>
+				<p class="price">¥12.8</p>
+				<p ><a href="">百草味 多味花生210g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g7.jpg"></a></p>
+				<p class="price">¥36.9</p>
+				<p><a href="">百草味 红杏干 100g/袋 X 4</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g8.jpg"></a></p>
+				<p class="price">¥16.9</p>
+				<p><a href="">百草味 黄桃干 100g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g9.jpg"></a></p>
+				<p class="price">¥17.9</p>
+				<p><a href="">百草味 风琴手撕鱿鱼片80g/袋</a></p>
+			</li>
+			<li>
+				<p><a href="details.html"><img data-original="../css/img/g10.jpg"></a></p>
+				<p class="price">¥57.8</p>
+				<p><a href="">百草味 手撕鱿鱼条80g/袋 X 2</a></p>
+			</li>
+		</ul>
+	</main>
+	<header id="footer"></header>
 </body>
 </html>

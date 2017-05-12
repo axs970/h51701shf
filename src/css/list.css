@@ -1,0 +1,28 @@
+main{
+	width: 100%;
+	margin: 20px auto;
+}
+main h3{
+	color: #D4362A;
+	line-height: 56px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+main ul li{
+	width: 250px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #fff;
+	font-size: 16px;
+}
+main ul li a{
+	color: #666;
+}
+main ul li p:nth-child(2){
+	color: #f00;
+	line-height: 40px;
+	font-size: 22px;
+}
+main ul li:hover{
+	border: 1px solid #D4362A;
+}
