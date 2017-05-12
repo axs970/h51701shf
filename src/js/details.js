@@ -63,9 +63,11 @@ document.addEventListener('DOMContentLoaded',function(){
 	var rprice = document.querySelector('.rprice');
 	var goodsMin = document.querySelector('.goods-min');
 	carlist = carlist ? JSON.parse(carlist) : [];
-	console.log(carlist);
+	var indexid = 0;
 	buy.onclick = function(){
+		indexid++;
 		var goods = {
+			guid:indexid,
 			name:detail.innerText,
 			price:rprice.innerText,
 			imgurl:goodsMin.children[0].src,

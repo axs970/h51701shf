@@ -16,6 +16,7 @@
 }
 #head .top .left{
 	float: left;
+	padding-left: 10px;
 }
 #head .top .left span  a{
 	color: #D6362A;

@@ -5,10 +5,10 @@
 			var firstImg = carousel.querySelector('img');
 
 			// 给页面添加左右按钮
-			var prevbtn = document.createElement('a');
+			var prevbtn = document.createElement('span');
 			prevbtn.classList.add('prev');
 			prevbtn.innerHTML = '&lt';
-			var nextbtn = document.createElement('a');
+			var nextbtn = document.createElement('span');
 			nextbtn.classList.add('next');
 			nextbtn.innerHTML = '&gt';
 			carousel.appendChild(prevbtn);

@@ -8,10 +8,9 @@ document.addEventListener('DOMContentLoaded',function(){
 	var ul = document.createElement('ul');
 	var totalPrice = 0;
 	ul.innerHTML = goodslist.map(function(item){
-		console.log(item.price)
-		totalPrice += parseInt(item.price) * item.qty;
+		totalPrice += item.price * item.qty;
 		
-		return `<li>
+		return `<li data-guid="${item.guid}">
 			<img src="${item.imgurl}">
 			<span>${item.name}</span>
 			<span class="price">${item.price}</span>
@@ -39,17 +38,16 @@ document.addEventListener('DOMContentLoaded',function(){
 
 			// 移除DOM节点
 			currentLi.parentNode.removeChild(currentLi);
-
+			console.log(currentLi,currentGUID)
 			// 清除cookie中对应的商品信息
 			for(var i=0;i<goodslist.length;i++){
-				if(goodslist[i].guid === currentGUID){
+				if(i=== currentGUID-1){
 					goodslist.splice(i,1);
 					break;
 				}
 			}
-
 			// 删除后重写cookie
 			setCookie('carlist',JSON.stringify(goodslist));
-				}
-			}
+		}
+	}
 });

@@ -90,6 +90,11 @@
 #cart .cartlist .buy p span{
 	margin-left: 700px;
 }
+#cart .cartlist .buy p span i{
+	color: #f00;
+	font-style: normal;
+	font-size: 16px;
+}
 #cart .cartlist .buy .lin{
 	padding-top: 15px;
 }
@@ -146,12 +151,12 @@
 }
 .price::before{
 	content:'￥';
-	font-size:11px;
+	font-size:16px;
 }
 .subPrice{
 	display: inline-block;
 	color: #f00;
 	position: absolute;
-	right: 135px;
-	top: 12px;
+	left: 920px;
+	top: 13px;
 }
